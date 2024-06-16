@@ -1,0 +1,21 @@
+This project will need to contain several different modules.
+It will consist of a front end I was thinking which could be done in svelte/js or ts; could also be done with react but I personally like svelte better.
+
+The backend I am thinking will be easiest to set up with python and perhaps using Cython for some performance gains. We can use flask to build out the API layer.
+
+The modules needed will be the following:
+
+Satelite Construction Module
+
+Launch and Orbit Selection Module
+
+Trajectory Planning Module
+
+Approach and Landing Module
+
+Mining Dynamics Module
+
+Refinement Process Module
+
+Return To Earth Module
+
