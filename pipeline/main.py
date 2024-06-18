@@ -1,7 +1,8 @@
 from scripts.load_power import load_power
 
 def main():
-    load_power('./test/test_power.csv')
+    filepath = input("Enter in a filepath: \n")
+    load_power(filepath)
 
 if __name__ == "__main__":
     main()
