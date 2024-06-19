@@ -1,0 +1,28 @@
+version: 'version'
+
+services:
+  db:
+    image: postgres:15.6
+    environment:
+      - POSTGRES_DB: db_name
+      - POSTGRES_USER: run/secrets/db_user
+      - POSTGRES_PASSWORD: run/secrets/db_password
+    ports:
+      - "5432:5432"
+
+  web:
+    build: .
+    environment:
+      - FLASK_APP: app/main.py
+      - FLASK_ENV: development
+      - DATABASE_URL: url 
+    ports: 
+      - "5000:5000"
+    depends_on:
+      - db
+
+secrets:
+  db_password:
+    file: db_password.txt
+  db_user:
+    file: db_user.txt
