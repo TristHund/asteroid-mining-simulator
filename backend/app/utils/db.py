@@ -1,9 +1,10 @@
 import psycopg2
 from app.config.db_config import db_config
+from psycopg2.extras import RealDictCursor
 import os
 
 def get_db_connection():
-    return psycopg2.connect(**db_config)
+    return psycopg2.connect(**db_config,cursor_factory=RealDictCursor)
 
 def run_select(query):
     conn = get_db_connection()

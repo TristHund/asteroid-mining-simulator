@@ -5,7 +5,9 @@ parts = flask.Blueprint('parts', __name__)
 
 @parts.route('/api/parts', methods=['GET'])
 def get_parts():
-    parts_values = run_select('SELECT * FROM core.components')
+    
+    parts_values = run_select(load_sql('parts.sql'))
+    
     return flask.jsonify(parts_values)
 
 @parts.route('/api/power-components', methods=['GET'])
