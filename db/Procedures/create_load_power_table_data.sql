@@ -16,7 +16,7 @@ LANGUAGE plpgsql
 
 AS $$
 
-DECLARE comp_id int;
+DECLARE comp_id INT;
 
 BEGIN
 
