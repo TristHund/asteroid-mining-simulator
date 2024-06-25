@@ -1,0 +1,7 @@
+name,type,weight,cost,control_method,sensor_types,accuracy,power_consumption,operational_lifetime,redundancy_level,temperature_tolerance,radiation_tolerance,reliability
+Reaction Wheel,Control System,20.5,15000.00,Three-axis stabilization,Sun Sensor;Star Tracker;Gyroscope,0.98,120,10,Triple, -20 to 50°C, High,0.99
+Magnetorquer,Control System,15.3,12000.00,Magnetic stabilization,Magnetometer,0.85,90,7,Single, -10 to 40°C, Medium,0.95
+Thruster,Control System,45.7,25000.00,Propulsion based control,Inertial Measurement Unit;Gyroscope,0.92,200,8,Double, -30 to 60°C, Very High,0.97
+Control Moment Gyroscope,Control System,25.4,22000.00,Three-axis stabilization,Star Tracker;Gyroscope,0.96,150,9,Triple, -25 to 55°C, High,0.98
+Sun Sensor,Sensor,2.1,5000.00,Sun pointing,Sun Sensor,0.80,10,5,None, -5 to 35°C, Low,0.85
+Star Tracker,Sensor,3.4,8000.00,Star pointing,Star Tracker,0.99,15,6,None, -10 to 40°C, Medium,0.99
