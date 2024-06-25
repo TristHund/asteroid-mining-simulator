@@ -1,0 +1,7 @@
+name,type,weight,cost,bandwidth,data_rate,power_consumption,operational_lifetime,antenna_type,eirp,redundancy_level
+High Gain Antenna,Communication System,12.5000,35000.00,500,100000,250,15,Parabolic,52.00,Triple
+Low Gain Antenna,Communication System,8.7500,15000.00,100,20000,100,10,Patch,25.00,Double
+X-Band Transmitter,Communication System,5.3000,20000.00,200,50000,150,12,Helix,35.00,Single
+S-Band Transmitter,Communication System,6.8500,18000.00,150,40000,120,10,Monopole,30.00,Single
+Ka-Band Transmitter,Communication System,7.2500,22000.00,300,80000,200,14,Horn,45.00,Triple
+UHF Transmitter,Communication System,4.1000,12000.00,50,10000,80,8,Dipole,20.00,None
