@@ -22,7 +22,7 @@ DECLARE comp_id INT;
 
 BEGIN
 
-INSERT INTO core.attitude_control(
+INSERT INTO core.components(
      name
     ,type
     ,weight
