@@ -14,3 +14,13 @@ def get_parts():
 def get_power_components():
     values = run_select(load_sql('power_components.sql'))
     return flask.jsonify(values)
+
+@parts.route('/api/attitude-control-components', methods=['GET'])
+def get_attitude_control_components():
+    values = run_select(load_sql('attitude_control_components.sql'))
+    return flask.jsonify(values)
+
+@parts.route('/api/communications-components', methods=['GET'])
+def get_communications_control_components():
+    values = run_select(load_sql('coms_components.sql'))
+    return flask.jsonify(values)
