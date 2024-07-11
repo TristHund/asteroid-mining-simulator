@@ -1,9 +1,11 @@
 <script>
     import PartSelector from "$lib/components/PartSelector.svelte";
 </script>
-<main>
-    <h1>Create a satellite</h1>
-    <p>Select Parts</p>
-    <PartSelector />
-    <p>Build satellite</p>
+<main class='text-center rounded-lg'>
+<h1 class=" p-6 text-3xl font-bold underline">
+    Create a satelite!
+</h1>
+<p class='font-medium'>Select Parts</p>
+<PartSelector />
+<p>Build Satellite</p>
 </main>

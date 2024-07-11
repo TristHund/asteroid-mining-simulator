@@ -1,0 +1,12 @@
+name,type,weight,cost,storage_type,capacity_kg,volume_m3,material_type,sealed,temperature_control,operational_lifetime,radiation_shielding
+Cryogenic Storage Tank,Storage System,300.00,150000.00,Cryogenic,2000.00,5.00,Aluminum Alloy,TRUE,TRUE,15,TRUE
+Modular Cargo Container,Storage System,150.00,75000.00,Modular,1000.00,2.50,Carbon Fiber,TRUE,FALSE,10,FALSE
+Pressurized Gas Cylinder,Storage System,50.00,50000.00,Pressurized Gas,500.00,1.00,Stainless Steel,TRUE,TRUE,12,TRUE
+Regolith Storage Bin,Storage System,200.00,100000.00,Loose Material,2500.00,6.00,Reinforced Steel,FALSE,FALSE,20,FALSE
+Liquid Storage Tank,Storage System,250.00,120000.00,Liquid,1500.00,4.00,Composite Material,TRUE,TRUE,18,TRUE
+Radiation Shielded Container,Storage System,400.00,200000.00,Radiation Shielded,3000.00,7.00,Lead Composite,TRUE,TRUE,25,TRUE
+Standard Storage Module,Storage System,100.00,50000.00,Standard,800.00,2.00,Aluminum,TRUE,FALSE,10,FALSE
+High-Density Storage Unit,Storage System,350.00,180000.00,High-Density,2800.00,5.50,Titanium Alloy,TRUE,TRUE,22,TRUE
+Vacuum-Sealed Container,Storage System,80.00,70000.00,Vacuum-Sealed,600.00,1.50,Polymer,TRUE,TRUE,15,TRUE
+Thermal-Controlled Storage,Storage System,200.00,130000.00,Thermal-Controlled,1200.00,3.50,Insulated Material,TRUE,TRUE,20,TRUE
+

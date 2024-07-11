@@ -1,0 +1,12 @@
+name,type,weight,cost,storage_capacity_kg,sealing_mechanism,launch_mechanism,re_entry_capability,power_requirements,operational_lifetime,communication_system
+Sample Return Capsule,Sample Return System,150.00,250000.00,50.00,Mechanical Seal,Solid Rocket Booster,TRUE,200,5,Direct Uplink
+Micro Sample Return Pod,Sample Return System,50.00,100000.00,10.00,Vacuum Seal,Spring-Loaded Mechanism,TRUE,100,3,Radio Frequency
+Large Sample Return Container,Sample Return System,300.00,500000.00,200.00,Pressure Seal,Chemical Rocket,TRUE,300,10,Satellite Relay
+Automated Sample Return Unit,Sample Return System,120.00,200000.00,30.00,Magnetic Seal,Electromagnetic Launch,TRUE,150,6,Laser Communication
+High-Temperature Sample Capsule,Sample Return System,200.00,350000.00,80.00,Thermal Seal,Solid Rocket Booster,TRUE,250,8,Direct Uplink
+Cryogenic Sample Return Module,Sample Return System,180.00,400000.00,40.00,Cryogenic Seal,Chemical Rocket,TRUE,220,7,Satellite Relay
+Multi-Sample Return Pod,Sample Return System,140.00,300000.00,60.00,Magnetic Seal,Spring-Loaded Mechanism,TRUE,180,5,Radio Frequency
+Fast Return Sample Unit,Sample Return System,100.00,150000.00,25.00,Mechanical Seal,Electromagnetic Launch,TRUE,120,4,Laser Communication
+Heavy-Duty Sample Return Capsule,Sample Return System,250.00,450000.00,100.00,Pressure Seal,Solid Rocket Booster,TRUE,280,9,Direct Uplink
+Compact Sample Return Device,Sample Return System,80.00,120000.00,15.00,Vacuum Seal,Chemical Rocket,TRUE,130,3,Radio Frequency
+

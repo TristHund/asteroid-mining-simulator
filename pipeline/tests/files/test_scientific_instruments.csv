@@ -1,0 +1,12 @@
+name,type,weight,cost,instrument_type,sensitivity,resolution,power_consumption,operational_lifetime,data_rate,field_of_view,temperature_tolerance_min,temperature_tolerance_max
+Infrared Spectrometer,Scientific Instrument,25.00,150000.00,Spectrometer,High,0.01 nm,200,10,50.00,30.00,-40,85
+Gamma-ray Detector,Scientific Instrument,30.00,200000.00,Detector,Very High,0.001 nm,250,12,20.00,40.00,-50,90
+Microwave Radiometer,Scientific Instrument,20.00,120000.00,Radiometer,Medium,0.1 nm,150,8,15.00,60.00,-30,70
+X-ray Telescope,Scientific Instrument,50.00,300000.00,Telescope,High,0.005 nm,300,15,25.00,10.00,-60,100
+UV Spectrometer,Scientific Instrument,22.00,140000.00,Spectrometer,Very High,0.002 nm,180,10,30.00,25.00,-40,80
+Particle Analyzer,Scientific Instrument,18.00,100000.00,Analyzer,High,0.05 nm,120,9,10.00,50.00,-20,60
+Magnetometer,Scientific Instrument,15.00,90000.00,Meter,Medium,0.1 mT,100,7,5.00,360.00,-30,70
+Imaging Camera,Scientific Instrument,35.00,180000.00,Camera,High,1080p,220,12,60.00,90.00,-20,65
+Mass Spectrometer,Scientific Instrument,28.00,160000.00,Spectrometer,Very High,0.001 amu,210,11,40.00,30.00,-35,75
+Thermal Imager,Scientific Instrument,26.00,130000.00,Imager,High,0.01 K,190,10,45.00,80.00,-25,70
+

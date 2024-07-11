@@ -11,3 +11,4 @@ SELECT c.name
 FROM core.components c
 JOIN core.power p
   ON c.id = p.component_id
+

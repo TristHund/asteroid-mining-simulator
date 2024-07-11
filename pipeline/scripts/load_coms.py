@@ -1,34 +1,11 @@
-import csv
-from scripts.utils import get_db_connection, read_sql_file
+from scripts.utils import load_data
+
+columns_coms = [
+    'name', 'type', 'weight', 'cost', 'bandwidth', 'data_rate',
+    'power_consumption', 'operational_lifetime', 'antenna_type',
+    'eirp', 'redundancy_level'
+]
 
 def load_coms(csv_file_path):
-    conn = get_db_connection()
-    cursor = conn.cursor()
+    load_data(csv_file_path, './sql/load_coms.sql', columns_coms)
 
-    insert_sql = read_sql_file('./sql/load_coms.sql')
-    print(insert_sql)
-
-    with open(csv_file_path, 'r') as csv_file:
-        reader = csv.DictReader(csv_file)
-        for row in reader:
-            sql_with_values = insert_sql % (
-                row['name'],
-                row['type'],
-                row['weight'],
-                row['cost'],
-                row['bandwidth'],
-                row['data_rate'],
-                row['power_consumption'],
-                row['operational_lifetime'],
-                row['antenna_type'],
-                row['eirp'],
-                row['redundancy_level']
-            )
-
-            print(sql_with_values)
-
-            cursor.execute(sql_with_values)
-
-    conn.commit()
-    cursor.close()
-    conn.close()

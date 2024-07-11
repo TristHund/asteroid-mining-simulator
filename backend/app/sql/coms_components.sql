@@ -10,4 +10,4 @@ SELECT cp.name
     , coms.redundancy_level
 FROM core.components cp
 JOIN core.communications coms
-  ON cp.id = coms.component_id
+  ON cp.id = coms.component_

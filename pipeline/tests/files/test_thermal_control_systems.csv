@@ -1,0 +1,12 @@
+name,type,weight,cost,system_type,temperature_range,power_consumption,operational_lifetime,reliability,maintenance_requirements,radiation_resistance
+Active Heat Pump,Thermal Control System,100.00,120000.00,Heat Pump,-50 to 100°C,150,15,0.98,Annual Maintenance,TRUE
+Passive Radiator,Thermal Control System,50.00,80000.00,Radiator,-60 to 120°C,0,20,0.95,Low Maintenance,FALSE
+Phase Change Material System,Thermal Control System,75.00,90000.00,PCM System,-40 to 85°C,50,18,0.97,Annual Maintenance,TRUE
+Loop Heat Pipe,Thermal Control System,110.00,130000.00,Heat Pipe,-55 to 110°C,100,22,0.96,Low Maintenance,TRUE
+Thermal Blanket,Thermal Control System,25.00,40000.00,Blanket,-70 to 125°C,0,10,0.94,Minimal Maintenance,FALSE
+Fluid Loop System,Thermal Control System,95.00,115000.00,Fluid Loop,-45 to 90°C,120,16,0.97,Annual Maintenance,TRUE
+Heat Switch,Thermal Control System,40.00,50000.00,Heat Switch,-50 to 95°C,30,12,0.95,Low Maintenance,TRUE
+Thermal Coating,Thermal Control System,15.00,30000.00,Coating,-60 to 100°C,0,8,0.92,Minimal Maintenance,FALSE
+Cryogenic Cooling System,Thermal Control System,150.00,200000.00,Cooling System,-200 to -50°C,250,20,0.99,High Maintenance,TRUE
+Thermal Strap,Thermal Control System,30.00,45000.00,Strap,-65 to 105°C,10,14,0.93,Minimal Maintenance,FALSE
+

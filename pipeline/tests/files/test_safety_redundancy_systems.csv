@@ -1,0 +1,12 @@
+name,type,weight,cost,system_type,functionality,operational_parameters,reliability,redundancy_level,power_requirements,operational_lifetime,maintenance_frequency
+Emergency Power System,Safety System,120.00,250000.00,Power Backup,Provides emergency power in case of main system failure,Automatic switch-over to backup,0.99,High,200,20,Annual
+Life Support Redundancy System,Redundancy System,200.00,400000.00,Life Support Backup,Maintains life support functions in case of primary system failure,Continuous monitoring and backup activation,0.98,Very High,250,25,Semi-Annual
+Thermal Control Redundancy,Redundancy System,150.00,300000.00,Thermal Backup,Regulates temperature in case of thermal system failure,Automatic temperature regulation,0.97,High,180,22,Quarterly
+Radiation Shield Backup,Safety System,180.00,350000.00,Radiation Protection,Provides additional radiation shielding in case of primary shield failure,High-energy particle detection and shielding,0.96,Medium,220,18,Annual
+Fire Suppression System,Safety System,50.00,100000.00,Fire Safety,Extinguishes fires in the spacecraft,Automatic fire detection and suppression,0.95,Medium,100,15,Quarterly
+Communications Redundancy,Redundancy System,100.00,200000.00,Comm Backup,Ensures communication capabilities in case of main system failure,Automatic switch to backup communication channels,0.98,High,150,20,Semi-Annual
+Structural Integrity Monitoring,Safety System,80.00,150000.00,Structural Monitoring,Monitors the structural integrity of the spacecraft,Continuous stress and damage assessment,0.97,Low,120,20,Annual
+Navigation Redundancy,Redundancy System,130.00,275000.00,Nav Backup,Maintains navigation capabilities in case of primary system failure,Automatic switch-over to backup navigation,0.99,High,200,22,Semi-Annual
+Pressure Control System,Safety System,90.00,175000.00,Pressure Safety,Maintains cabin pressure in case of primary system failure,Automatic pressure regulation,0.96,Medium,140,18,Annual
+Data Storage Redundancy,Redundancy System,60.00,125000.00,Data Backup,Ensures data preservation in case of main storage failure,Automatic data mirroring and backup,0.99,Very High,110,25,Annual
+

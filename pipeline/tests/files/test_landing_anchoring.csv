@@ -1,0 +1,10 @@
+name,type,weight,cost,strength,material,deployment_method,power_consumption,reliability
+Harpoon Anchoring System,Anchoring Gear,25.00,35000.00,250.5000,Titanium Alloy,Projectile,150.5000,0.99
+Drill-Based Anchoring System,Anchoring Gear,40.00,50000.00,300.7500,Reinforced Steel,Mechanical,250.7500,0.98
+Electromagnetic Anchors,Anchoring Gear,30.00,40000.00,200.6000,Magnetic Composite,Electromagnetic,200.6000,0.97
+Microspine Grippers,Anchoring Gear,35.00,45000.00,180.5500,High-Strength Composite,Mechanical,220.5500,0.96
+Shock Absorbing Landing Pads,Landing Gear,20.00,30000.00,150.4000,Carbon Fiber,Hydraulic,100.4000,0.95
+Retractable Landing Legs,Landing Gear,45.00,55000.00,275.6500,Aluminum Alloy,Hydraulic,300.6500,0.97
+Self-Drilling Anchors,Anchoring Gear,50.00,60000.00,350.8500,Tungsten Carbide,Mechanical,320.8500,0.98
+Thermal Anchoring System,Anchoring Gear,55.00,70000.00,400.9000,Heat-Resistant Alloy,Thermal,350.9000,0.99
+
