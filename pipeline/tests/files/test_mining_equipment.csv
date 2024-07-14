@@ -1,12 +1,12 @@
 name,type,weight,cost,efficiency,power_consumption,material,reliability,temperature_tolerance_min,temperature_tolerance_max
-Laser Drill,Drilling Equipment,35.00,75000.00,0.8500,500W,High-Density Alloy,0.97,-100.00,150.00
-Plasma Cutter,Extraction Equipment,28.00,60000.00,0.9000,450W,Tungsten Carbide,0.96,-120.00,140.00
-Robotic Arm,Manipulation Equipment,42.00,85000.00,0.9200,350W,Carbon Fiber,0.98,-80.00,130.00
-Sample Collector,Prospecting Equipment,15.00,30000.00,0.8800,150W,Composite Materials,0.95,-60.00,120.00
-Rock Crusher,Processing Equipment,55.00,95000.00,0.8700,700W,Reinforced Steel,0.97,-90.00,160.00
-Spectrometer,Analysis Equipment,18.00,50000.00,0.9300,200W,Titanium Alloy,0.99,-70.00,110.00
-Thermal Drill,Drilling Equipment,50.00,80000.00,0.8600,600W,Heat-Resistant Alloy,0.96,-110.00,140.00
-Resource Extractor,Extraction Equipment,45.00,90000.00,0.9400,550W,High-Strength Composite,0.97,-100.00,150.00
-Magnetic Separator,Processing Equipment,40.00,70000.00,0.9100,300W,Magnetic Composite,0.95,-85.00,135.00
-Core Sampler,Prospecting Equipment,25.00,40000.00,0.8900,250W,Carbon Composite,0.98,-75.00,125.00
+Laser Drill,Drilling Equipment,35.00,75000.00,0.8500,500,High-Density Alloy,0.97,-100.00,150.00
+Plasma Cutter,Extraction Equipment,28.00,60000.00,0.9000,450,Tungsten Carbide,0.96,-120.00,140.00
+Robotic Arm,Manipulation Equipment,42.00,85000.00,0.9200,350,Carbon Fiber,0.98,-80.00,130.00
+Sample Collector,Prospecting Equipment,15.00,30000.00,0.8800,150,Composite Materials,0.95,-60.00,120.00
+Rock Crusher,Processing Equipment,55.00,95000.00,0.8700,700,Reinforced Steel,0.97,-90.00,160.00
+Spectrometer,Analysis Equipment,18.00,50000.00,0.9300,200,Titanium Alloy,0.99,-70.00,110.00
+Thermal Drill,Drilling Equipment,50.00,80000.00,0.8600,600,Heat-Resistant Alloy,0.96,-110.00,140.00
+Resource Extractor,Extraction Equipment,45.00,90000.00,0.9400,550,High-Strength Composite,0.97,-100.00,150.00
+Magnetic Separator,Processing Equipment,40.00,70000.00,0.9100,300,Magnetic Composite,0.95,-85.00,135.00
+Core Sampler,Prospecting Equipment,25.00,40000.00,0.8900,250,Carbon Composite,0.98,-75.00,125.00
 

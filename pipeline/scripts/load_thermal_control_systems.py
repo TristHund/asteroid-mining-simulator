@@ -1,10 +1,10 @@
 from scripts.utils import load_data
 
 columns_thermal_control_systems = [
-    "comp_name",
-    "comp_type",
-    "comp_weight",
-    "comp_cost",
+    "name",
+    "type",
+    "weight",
+    "cost",
     "system_type",
     "temperature_range",
     "power_consumption",

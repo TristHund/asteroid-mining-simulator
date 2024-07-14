@@ -1,3 +1,5 @@
+DROP PROCEDURE core.insert_thermal_control_systems_table;
+
 CREATE PROCEDURE core.insert_thermal_control_systems_table(
     comp_name VARCHAR(255),
     comp_type VARCHAR(50),

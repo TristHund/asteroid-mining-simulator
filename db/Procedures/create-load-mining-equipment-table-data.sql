@@ -6,7 +6,7 @@ CREATE PROCEDURE core.insert_mining_equipment_table(
     ,comp_weight NUMERIC(10,2)
     ,comp_cost NUMERIC(10,2)
     ,me_efficiency DECIMAL(10,4)
-    ,me_power_consumption VARCHAR(100)
+    ,me_power_consumption DECIMAL(10,2) 
     ,me_material VARCHAR(50) 
     ,me_reliability DECIMAL(5,2)
     ,me_temperature_tolerance_min DECIMAL(5,2)

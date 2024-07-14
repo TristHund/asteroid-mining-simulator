@@ -32,6 +32,8 @@ class TestLoaders(unittest.TestCase):
             DELETE FROM core.power;
             DELETE FROM core.attitude_control;
             DELETE FROM core.communications;
+            DELETE FROM core.refinement;
+            DELETE FROM core.propulsion;
             DELETE FROM core.components;
         """
         )
@@ -93,7 +95,7 @@ class TestLoaders(unittest.TestCase):
         self.assertGreater(power_count, 0)
 
     def test_load_propulsion(self):
-        load_power(get_csv_file("files/test_propulsion.csv", os.path.abspath(__file__)))
+        load_propulsion(get_csv_file("files/test_propulsion.csv", os.path.abspath(__file__)))
         self.cursor.execute("SELECT COUNT(*) FROM core.components;")
         components_count = self.cursor.fetchone()[0]
         self.cursor.execute("SELECT COUNT(*) FROM core.propulsion;")
@@ -102,7 +104,7 @@ class TestLoaders(unittest.TestCase):
         self.assertGreater(power_count, 0)
 
     def test_load_refinement(self):
-        load_power(get_csv_file("files/test_refinement.csv", os.path.abspath(__file__)))
+        load_refinement(get_csv_file("files/test_refinement.csv", os.path.abspath(__file__)))
         self.cursor.execute("SELECT COUNT(*) FROM core.components;")
         components_count = self.cursor.fetchone()[0]
         self.cursor.execute("SELECT COUNT(*) FROM core.refinement;")
@@ -122,7 +124,7 @@ class TestLoaders(unittest.TestCase):
         self.assertGreater(storage_count, 0)
 
     def test_load_safety_redundancy_systems(self):
-        load_safety_redundancy_systems(
+        load_safety_redundancy(
             get_csv_file(
                 "files/test_safety_redundancy_systems.csv", os.path.abspath(__file__)
             )

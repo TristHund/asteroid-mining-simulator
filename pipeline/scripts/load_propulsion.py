@@ -12,12 +12,11 @@ columns_propulsion = [
     "size",
     "maintenance_requirements",
     "reliability",
-    "enviromental_impact",
+    "environmental_impact",
     "development_status",
-    "fuel_status",
-    "fuel_shortage_volume",
+    "fuel_storage_volume",
 ]
 
 
 def load_propulsion(csv_file_path):
-    load_data(csv_file_path, "./sql/load_propulsion.sql", colums_propulsion)
+    load_data(csv_file_path, "./sql/load_propulsion.sql", columns_propulsion)

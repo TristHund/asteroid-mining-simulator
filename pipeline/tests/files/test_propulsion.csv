@@ -1,0 +1,12 @@
+name,type,weight,cost,thrust,specific_impulse,fuel_type,operational_lifetime,size,maintenance_requirements,reliability,environmental_impact,development_status,fuel_storage_volume
+Ion Thruster,Propulsion System,20.00,200000.00,250,3000,Xenon,10,0.500,Low,High,Low,Operational,0.0200
+Chemical Rocket,Propulsion System,150.00,500000.00,1000,450,Kerosene/LOX,5,2.000,High,Medium,High,Operational,2.5000
+Hall Effect Thruster,Propulsion System,25.00,220000.00,300,2000,Krypton,8,0.600,Medium,High,Low,Operational,0.0300
+Nuclear Thermal Rocket,Propulsion System,500.00,1000000.00,2000,900,Hydrogen,20,3.500,High,Very High,High,Experimental,10.0000
+Solar Electric Propulsion,Propulsion System,30.00,150000.00,150,3500,Xenon,15,1.200,Low,High,Low,Operational,0.0500
+Solid Rocket Motor,Propulsion System,100.00,300000.00,800,250,Ammonium Perchlorate,3,1.800,Medium,Medium,Medium,Operational,1.0000
+Plasma Thruster,Propulsion System,40.00,250000.00,400,2500,Argon,12,0.800,Low,High,Low,Experimental,0.0400
+Hybrid Rocket,Propulsion System,120.00,400000.00,900,350,Nitrous Oxide/HTPB,7,2.200,Medium,Medium,Medium,Operational,1.5000
+Electrothermal Thruster,Propulsion System,35.00,180000.00,200,1500,Water,6,0.700,Low,Medium,Low,Operational,0.0200
+Magnetoplasmadynamic Thruster,Propulsion System,50.00,300000.00,500,4000,Hydrogen,10,1.000,High,High,Low,Experimental,0.1000
+
