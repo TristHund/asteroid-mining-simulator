@@ -1,7 +1,7 @@
 import os
 
 import psycopg2
-from app.config.db_config import db_config
+from config.db_config import db_config
 from psycopg2.extras import RealDictCursor
 
 
